@@ -9,7 +9,9 @@ The Caesar Cipher is a substitution cipher where each character is shifted by a 
 This program:
 
 =>Uses ord() and chr() to shift characters within ASCII printable range.
+
 =>Wraps around using modulo % 127 to stay within bounds.
+
 =>Includes encryption & decryption logic in a simple GUI.
 
 
